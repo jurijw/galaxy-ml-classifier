@@ -175,7 +175,7 @@ def main() -> None:
     download_table_path = Path("tables/download_table.csv")
 
     df = load_dataframe(filtered_data_path, download_table_path)
-    download_images(df.head(10))
+    download_images(df)
 
     failed = df[df['downloaded'] == False]
     if not failed.empty:
