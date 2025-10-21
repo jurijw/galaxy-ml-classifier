@@ -11,6 +11,9 @@ log.txt
 # Don't track the download table
 tables/download_table.csv
 
+# Don't track unfiltered Galaxyzoo table
+tables/ZooSpecPhotoDR19.csv
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
